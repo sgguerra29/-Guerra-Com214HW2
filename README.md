@@ -1,1 +1,2 @@
 # -Guerra-Com214HW2
+<!--Them following html code writes a webpage that tracks my current masic taste. In an ideal world, with a little more skill and a little more time, this site would be built out into a Pinterest style page, where users (primarily me) could merge their Spotify and the Pinterest to curate how different playlists/genres/artists feel.>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--The html tag I used that we didn't explicity cover in class-->
+<html>
+    <head>
+        <style type="text/css">
+            h1 {text-align:center;}
+            h2 {text-align:center;}
+            h3 {text-align:center;}
+            div {text-align:center}
+            th{border:1px solid darkolivegreen; background-color:rgba(54, 123, 93, 0.875)}
+            td{border:1px solid darkolivegreen; background-color:rgb(244, 249, 247)}
+
+            #bottom-sections{
+                width:100%;
+                margin:0;
+                display:flex;
+            }
+
+            #links{
+                flex:1;
+                margin-right:2%;
+                border-radius:8px;
+                background-color:rbg(146,186,168);
+            }
+
+            #favorites{
+                flex:1;
+                border-radius:8px;
+                background-color:rgb(146,186,168);
+            }
+        </style>
+        <!-- chat GPT helped me with the css styling (#bottom-sections, links, favorites) above. I could figure out how to set up divs side by side without making the format look hideous.-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title> HTML Elements Reference</title>
+    </head>
+    <body>
+        <div id="header" style="width:100%;margin:0">
+            <div id="header1" style="background-color:rgba(73, 164, 125, 0.747); border-radius:8px;">
+                <h1 style="margin-bottom:0;margin-top:0;text-align:center;font-family:'Courier New', Courier, monospace">What I'm Listening To Right Now</h1>
+            </div>
+            <div id="header2" style="background-color:rgb(73, 164, 125);border-radius:8px">
+                <h4 style="margin-bottom:0;margin-top:0;text-align:center;font-family:'Courier New', Courier, monospace">Music is one of the best things ever. I like to think I listen to it well. Here's some stuff I really enjoy.</h3>            
+            </div>
+        </div>
+        <div id="images" style="width:100%;margin:0;background-color:rgb(235, 255, 246)">
+            <img src="pheobebridgers.jpg" alt="Pheobe Bridgers" style="border-radius: 8px;width:15%"> 
+            <img src="thesmiths.jpg" alt="The Smiths" style="border-radius: 8px; width:15%; margin:0">
+            <img src="tameimpala.jpg" alt="The Smiths" style="border-radius: 8px; width:15%; margin:0">
+            <img src="arcticmonkeys.jpg" alt="The Smiths" style="border-radius: 8px; width:15%; margin:0">
+            <img src="thecure.jpeg" alt="The Smiths" style="border-radius: 8px; width:15%; margin:0">
+            <img src="tyler.jpg" alt="The Smiths" style="border-radius: 8px; width:15%; margin:0">
+        </div>
+        <div id="genres" style="width:100%;margin:0;">
+            <div id="genres" style="background-color:rgba(73, 164, 125, 0.483);border-radius:8px">
+                <h5 style="margin-bottom:0;margin-top:0;text-align:center;font-family:'Courier New', Courier, monospace">I listen to a lot of music from a lot of different genres. Heres some of my favorites</h5>
+            </div>
+            <table id="genres" style="width:100%;margin:0;border-radius:8px;font-family:'Courier New', Courier, monospace">
+                <tr>
+                    <th>Genre</th>
+                    <th>Artist</th>
+                    <th>Albums of Note</th>
+                </tr>
+                <tr>
+                    <td>Classic Rock</td>
+                    <td>The Cure</td>
+                    <td>Wish</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>The Clash</td>
+                    <td>London Calling</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>Fleetwood Mac</td>
+                    <td>Rumours</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>The Smiths</td>
+                    <td>The Queen is Dead</td>
+                </tr>
+                <tr>
+                    <td>Indie Rock</td>
+                    <td>Arctic Monkeys</td>
+                    <td>The Car</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>TV Girl</td>
+                    <td>The French Exit</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Boy Genius</td>
+                    <td>boygenius</td>
+                </tr>
+                <tr>
+                    <td>Indie/Alternative</td>
+                    <td>Djo</td>
+                    <td>Decide</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Mac Demarco</td>
+                    <td>This Old Dog</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Tame Impala</td>
+                    <td>The Slow Rush</td>
+                </tr>
+                <tr>
+                    <td>R&B</td>
+                    <td>Tyler the Creator</td>
+                    <td>Call Me if You Get Lost</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Childish Gambino</td>
+                    <td>Camp</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Frank Ocean</td>
+                    <td>channel Orange</td>
+                </tr>
+            </table>
+        </div>
+        <div id="bottom-section" style="width:100%;margin:0;border-radius:8px; display:flex">
+            <div id="links" style="flex:1;width:48%;margin-right: 2%;border-radius:8px;background-color:rgb(146, 186, 168)">
+                <h3 style="font-family:'Courier New', Courier, monospace">Here are my essentials for good music listening: </h3>       
+                <p style="font-family:'Courier New', Courier, monospace">My Spotify account (which I chose to believe is one of the best): </p>                 
+                <a href="https://open.spotify.com" style="font-family:'Courier New', Courier, monospace" target="_blank">My Spotify</a><br/>
+                <p style="font-family:'Courier New', Courier, monospace"> My Pinterest, to help curate a mood: </p>                 
+                <a href="https://www.pinterest.com/sgguerra29/" style="font-family:'Courier New', Courier, monospace" target="_blank">My Pinterest</a><br/>
+                <p style="font-family:'Courier New', Courier, monospace"> Spotify Stats-- to help make sure your Spotify Wrapped is on track: </p>                 
+                <a href="https://www.statsforspotify.com" style="font-family:'Courier New', Courier, monospace" target="_blank">Spotify Stats</a><br/>
+            </div>
+            <div id="favorites" style="flex:1;border-radius:8px;background-color:rgb(146, 186, 168)">
+                <h4 style="font-family:'Courier New', Courier, monospace">I'm always trying to explore new stuff; genres, artists, albums, eras-- whatever. Here are some of current favorite finds: </h4>       
+                <p style="font-family:'Courier New', Courier, monospace">Recently, I've been really into Greta Van Fleet: </p>                 
+                <a href="https://open.spotify.com/artist/4NpFxQe2UvRCAjto3JqlSl" style="font-family:'Courier New', Courier, monospace" target="_blank">Their Spotify Profile</a><br/>
+                <p style="font-family:'Courier New', Courier, monospace"> The Last Dinner Party just put out their first full album. Big fan. </p>                 
+                <a href="https://open.spotify.com/artist/4NpFxQe2UvRCAjto3JqlSl" style="font-family:'Courier New', Courier, monospace" target="_blank">Their Debut Album</a><br/>
+            </div>
+        </div>
+        <div id="contact" style="width:100%;margin:0;border-radius:8px;">
+            <h4 style="font-family:'Courier New', Courier, monospace">I think the best way to listen to music is with an open mind. Like I said, I'm always looking for new stuff. Send me something you like!</h4>
+            <address style="font-family:'Courier New', Courier, monospace">
+                My email is: <a href="sguerra@conncoll.edu">sguerra@conncoll.edu</a>.<br>
+                Looking forward to hearing what you got!<br>
+            </address>
+            <!--I found the html tag on w3schools (super helpful site; thanks for the suggestion). Apparently, it defines the contact informtion for the author of a page.-->
+        </div>
+    </body>
+</html>
